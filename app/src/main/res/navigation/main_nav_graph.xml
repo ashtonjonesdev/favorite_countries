@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment_dest">
+
+    <fragment
+        android:id="@+id/home_fragment_dest"
+        android:name="dev.ashtonjones.favorite_countries.fragments.HomeFragment"
+        android:label="Favorite Countries"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_fragment_dest_to_addCountry"
+            app:destination="@id/addCountry" />
+    </fragment>
+    <activity
+        android:id="@+id/main_activity_dest"
+        android:name="dev.ashtonjones.favorite_countries.activities.MainActivity"
+        android:label="Main Activity"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/country_details_fragment_dest"
+        android:name="dev.ashtonjones.favorite_countries.fragments.CountryDetails"
+        android:label="Country Details"
+        tools:layout="@layout/fragment_country_details" >
+        <argument
+            android:name="countryTitleArg"
+            app:argType="string"
+            android:defaultValue="Country" />
+    </fragment>
+    <fragment
+        android:id="@+id/search_countries_fragment_dest"
+        android:name="dev.ashtonjones.favorite_countries.fragments.SearchCountries"
+        android:label="Search Countries"
+        tools:layout="@layout/fragment_search_countries" >
+        <action
+            android:id="@+id/action_search_countries_fragment_dest_to_country_details_fragment_dest"
+            app:destination="@id/country_details_fragment_dest" >
+        <argument
+            android:name="countryTitleArg"
+            app:argType="string"
+            android:defaultValue="Country"
+            app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/addCountry"
+        android:name="dev.ashtonjones.favorite_countries.fragments.AddCountry"
+        android:label="Add Country"
+        tools:layout="@layout/fragment_add_country" />
+</navigation>

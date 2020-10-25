@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    /// Dark theme: Based on  200 of Primary (Light Theme)
+
+    // Primary Colors
+    <color name="colorPrimary">#82ccd0</color> //
+    <color name="colorPrimaryDark">#20a8ab</color> //
+    <color name="colorPrimaryLight">#b4e0e2</color> //
+
+    <!--    // Primary Color Variants-->
+    <color name="colorPrimary50">#e1f2f4</color>
+    <color name="colorPrimary100">#b4e0e2</color>
+    <color name="colorPrimary200">#82ccd0</color>
+    <color name="colorPrimary300">#4db8bc</color>
+    <color name="colorPrimary400">#20a8ab</color>
+    <color name="colorPrimary500">#00999a</color>
+    <color name="colorPrimary600">#008c8c</color>
+    <color name="colorPrimary700">#007c7a</color>
+    <color name="colorPrimary800">#006c6a</color>
+    <color name="colorPrimary900">#00504c</color>
+
+    // Secondary/Accent color
+    <color name="colorSecondary">#a6a3ce</color> //
+    <color name="colorAccent">#a6a3ce</color> //
+    <color name="colorSecondaryVariant">#c9c7e2</color>
+
+    // Surface Colors (White -> Black)
+    <color name="colorSurface">#121212</color>
+    <color name="colorSurfaceLight">#61000000</color>
+    <color name="colorSurfaceDark">#DE000000</color>
+    <color name="colorSurfaceScrim">#61000000</color> // Dark grey
+
+    // Background Color
+    <color name="colorBackground">#121212</color>
+
+    <!--Error color-->
+    <color name="colorError">#CF6679</color> // Lighter error color
+
+    // Black Colors (Text OnSurface AND OnPrimary #50-600)
+    <color name="colorHighEmphasisBlack">#DE000000</color> // 87% Opaque Black
+    <color name="colorMediumEmphasisBlack">#99000000</color> // 60% Opaque Black
+    <color name="colorDisabledBlack">#61000000</color> // 38% Opaque Black
+
+    // White Colors ( Text OnPrimary #700-900)
+    <color name="colorHighEmphasisWhite">#FFFFFF</color> // 100% Opaque White
+    <color name="colorMediumEmphasisWhite">#99FFFFFF</color> // 60% Opaque White
+    <color name="colorDisabledWhite">#61FFFFFF</color> // 38% Opaque White
+
+    <!--On Primary-->
+    <color name="colorOnPrimary">#000000</color>
+
+    <!--On Secondary-->
+    <color name="colorOnSecondary">#000000</color>
+
+    <!--onSurface color: The color used for elements displayed on top of your surface color-->
+    <color name="colorOnSurface">#FFFFFF</color>
+
+    <color name="colorOnBackground">#FFFFFF</color>
+
+
+</resources>
