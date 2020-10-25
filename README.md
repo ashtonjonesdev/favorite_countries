@@ -1,4 +1,4 @@
-# 🌐 Favorite Countries (Navite Android app built with Kotlin)
+# 🌐 Favorite Countries (Native Android app built with Kotlin)
 
 <p align="center"><img src="./gif/favorite_countries.gif"></p>
 
@@ -44,3 +44,8 @@ Android app to keep track of your favorite countries and what you like about the
 🌐 www.ashtonjones.dev
 
 Copyright 2020 Ashton Jones
+
+## 📸 Screenshots
+<img src="./screenshots/Screenshot_20201025-152645.jpg" width="30%" height="30%">&ensp;<img src="./screenshots/Screenshot_20201025-152650.jpg" width="30%" height="30%">&ensp;<img src="./screenshots/Screenshot_20201025-152655.jpg" width="30%" height="30%">&ensp;
+------
+<img src="./screenshots/Screenshot_20201025-152706.jpg" width="30%" height="30%">&ensp;<img src="./screenshots/Screenshot_20201025-152712.jpg" width="30%" height="30%">&ensp;<img src="./screenshots/Screenshot_20201025-152719.jpg" width="30%" height="30%">&ensp;
